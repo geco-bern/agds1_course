@@ -1,9 +1,36 @@
-# Preface {.unnumbered}
+---
+title-block-banner: true
+---
 
-This is a Quarto book.
+# About this course {.unnumbered}
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## Course description 
+
+This course covers the Applied Geodata Science I book [Applied Geodata Science](https://geco-bern.github.io/agds/) and demonstrates common applications of machine learning methods in Geography and Environmental Sciences by worked examples.
+
+## Learning objectives
+
+- Implement a data science workflow for common domain-specific machine learning-based modelling tasks.
+- Analyse and visualise models and their predictions and communicate insights.
+- Describe the challenges of model fitting and evaluate model generalisability.
+- Adopt and benefit from Open Science practices and resources for data-intensive research projects.
+
+## Course contents
+
+This course covers all steps along the data science workflow (@fig-datascienceworkflow) and introduces methods and tools to learn the most from data, to effectively communicate insights, and to make your workflow reproducible. By following this course, you will be well equipped for joining the Open Science movement.
 
 ```{r}
-1 + 1
+#| label: fig-datascienceworkflow
+#| fig-cap: "The data science workflow and keywords of contents covered in Applied Geodata Science I. Figure adapted from: Wickham and Grolemund R for Data Science"
+#| fig-align: "left"
+#| out-width: "100%"
+#| echo: FALSE
+knitr::include_graphics("./images/data_science_workflow_keywords.png")
 ```
+
+## Target audience and prerequisites
+
+Bachelor students in *Geography* and in *Climate Sciences* at the University of Bern. 
+This course is a product of the group for [Geocomputation and Earth Observation](https://geco-group.org/), Institute of Geography with contributions by Dr. Koen Hufkens, Pascal Schneider and Pepa Aran.
+
+![](./images/logo_unibern_squid3.png){width="30%"} ![](./images/geco_logo_fullname.png){width="30%"}
