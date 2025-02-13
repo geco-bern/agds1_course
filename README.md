@@ -1,3 +1,3 @@
-# R book template
+# Backbone AGDS I course webpage
 
-A quarto project template to use for courses and other documentation produced by the GECO group. Based on the BlueGreen Labs template by Koen Hufkens.
+This contains the markdown files used to generate the webpage for the AGDS I course: https://geco-bern.github.io/agds1_course/
