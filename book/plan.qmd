@@ -1,0 +1,99 @@
+# Course plan {#sec-plan}
+
+For spring semester 2025.
+
+## Block 1: Introduction to Applied Geodata Science methods {.unnumbered}
+
+This first block introduces tools and methods necessary for implementing a reproducible data science workflow in the R language, working through chapters 1 to 4 of the accompanying book [Applied Geodata Science](https://geco-bern.github.io/agds_book/).
+
+These chapters help get readers with a diverse background and varying data science experience up to speed with the basics for programming in R, which we rely on in later chapters.
+
+Data wrangling introduces efficient handling and cleaning of large tabular data with the R tidyverse “programming dialect”. The focus is on non-geospatial data.
+Closely related to transforming data and its multiple axes of variation is data visualisation
+
+
+### Session 1 - 17.02. - Getting started {.unnumbered}
+
+- [Introduction to Applied Geodata Science (Chap. 1)](https://geco-bern.github.io/agds_book/intro.html#what-is-applied-geodata-science)
+  - The data science workflow and data science basics
+  - The concept of modelling
+  - [Introduction to R language and setup of individual laptops (Chap. 2)](https://geco-bern.github.io/agds_book/getting_started.html)
+
+### Session 2 - 24.02. - Programming primers {.unnumbered}
+
+- [Getting started](https://geco-bern.github.io/agds_book/getting_started.html)
+  - RMarkdown
+  - Workspace management and reproducible workflows
+- [Introductory Programming Exercises:  (Chap. 3)](https://geco-bern.github.io/agds_book/programming_primers.html)
+
+### Session 3 - 03.03. - Data wrangling (Report: Tidy data) {.unnumbered}
+
+- [Handling tabular data in R (Chap. 4)](https://geco-bern.github.io/agds_book/data_wrangling.html)
+- [Report exercise: Tidy data]
+
+### Session 4 - 10.03. - Data visualization (Report: Air quality) {.unnumbered}
+
+- [Data visualization in R (Chap. 5)](https://geco-bern.github.io/agds_book/data_vis.html)
+- [Report exercise: Data visualization]
+
+## Block 2: Getting and working with scientific data {.unnumbered}
+
+This block introduces essential tools for the daily work with diverse data and for applying an Open Science practice which also includes collaborative code development or at least code sharing.
+
+### Session 5 - 17.03. - Data variety {.unnumbered}
+
+- [Data variety (Chap. 6)](https://geco-bern.github.io/agds_book/data_variety.html)
+
+### Session 6 - 24.03. - Open science {.unnumbered}
+
+- [Open and reproducible science (Chap. 7)](https://geco-bern.github.io/agds_book/open_science.html#openscience)
+
+### Session 7 - 31.03. - Code management (Report: git) {.unnumbered}
+
+- [Code/project management with git (Chap. 8)](https://geco-bern.github.io/agds_book/code_management.html)
+- [Report exercise: git]
+
+### Session 8 - 07.04. - CARE SESSION I {.unnumbered}
+
+- Work on R. Ex. 7 **as team exercise**
+- Self-study of tutorial and exercises
+
+
+## Block 3: Statistical analyses of data {.unnumbered}
+
+With regression, classification, supervised machine learning I and II and Random Forests we will get into modelling and identifying patterns in the data.
+
+### Session 9 - 14.04. - Regression (Report: stepwise regr.) {.unnumbered}
+
+- [Regression and classification](https://geco-bern.github.io/agds_book/regression_classification.html)
+- [Report exercise: stepwise regression]
+
+### Session 10 - 28.04. - Supervised ML I (Report: KNN){.unnumbered}
+
+- [Supervised machine learning I](https://geco-bern.github.io/agds_book/supervised_ml_I.html)
+- [Report exercise: stepwise KNN]
+
+### Session 11 - 05.05. - Supervised ML II (Report: flux modeling) {.unnumbered}
+
+- Applications of machine learning in Geography and Earth system sciences (lecture)
+- [Supervised machine learning II](https://geco-bern.github.io/agds_book/supervised_ml_II.html)
+- [Report exercise: stepwise flux modeling]
+
+### Session 12 - 12.05. - Random Forest {.unnumbered}
+
+- [Random Forest](https://geco-bern.github.io/agds_book/randomforest.html)
+
+
+## Block 4: Work on Report Exercises {.unnumbered}
+
+### Session 13 - 19.05.  - CARE SESSION II {.unnumbered}
+
+- Free work on Report Exercises
+- Self-study of literature and report exercise
+
+### Session 14 - 26.05. {.unnumbered}
+
+- Free work on Report Exercises
+- Self-study of literature and report exercise
+- [Potential Outlook: Interpretable machine learning](https://geco-bern.github.io/agds_book/interpretableml.html)
+

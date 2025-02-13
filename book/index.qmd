@@ -6,7 +6,7 @@ title-block-banner: true
 
 ## Course description 
 
-This course covers the Applied Geodata Science I book [Applied Geodata Science](https://geco-bern.github.io/agds/) and demonstrates common applications of machine learning methods in Geography and Environmental Sciences by worked examples.
+This course introduces essential methods of the data science workflow, supported by the book [Applied Geodata Science](https://geco-bern.github.io/agds_book/) and demonstrates common applications of machine learning methods in Geography and Environmental Sciences by worked examples.
 
 ## Learning objectives
 
@@ -31,6 +31,6 @@ knitr::include_graphics("./images/data_science_workflow_keywords.png")
 ## Target audience and prerequisites
 
 Bachelor students in *Geography* and in *Climate Sciences* at the University of Bern. 
-This course is a product of the group for [Geocomputation and Earth Observation](https://geco-group.org/), Institute of Geography with contributions by Dr. Koen Hufkens, Pascal Schneider and Pepa Aran.
+This course is a product of the group for [Geocomputation and Earth Observation](https://geco-group.org/), Institute of Geography, taught by Benjamin Stocker and Fabian Bernhard. The course content was established with contributions by Koen Hufkens, Pascal Schneider and Pepa Aran.
 
 ![](./images/logo_unibern_squid3.png){width="30%"} ![](./images/geco_logo_fullname.png){width="30%"}
