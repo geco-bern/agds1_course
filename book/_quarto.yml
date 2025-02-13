@@ -9,17 +9,17 @@ book:
   title: "Applied Geodata Science I"
   subtitle: "Introducing applications of machine learning in Geography and Environmental Sciences"
   author: "Benjamin Stocker"
-  date: "17 August 2023"
+  date: "13 February 2025"
   page-navigation: true
   chapters:
     - index.qmd
-    #- logistics.qmd
-    #- plan.qmd
+    - logistics.qmd
+    - plan.qmd
     #- reportexercises.qmd
   favicon: "figures/favicon.ico"
   twitter-card: true
   search: true
-  repo-url: https://github.com/geco-bern/agsd/
+  repo-url: https://github.com/geco-bern/agsd_book/
   sharing: [twitter, facebook]
   navbar:
     title: " "
