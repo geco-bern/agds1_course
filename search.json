@@ -70,7 +70,7 @@
     "href": "logistics.html#general-information",
     "title": "1  Logistics",
     "section": "",
-    "text": "Lead: Prof. Benjamin Stocker; assistance: Dr. Fabian Bernhard\nCourse language is English.\nMonday 14.15-16.00 is our presence time, use it for your communication with us.\nNo email communications.\nLecture notes are available as online tutorials (see Chapter 2). They contain all contents as reproducible code.\nNo recordings are made available. It’s all in the tutorials.\nThe number of students is limited to 25.\nThis course follows a hybrid class setup: input lectures, flipped classroom, and individual work on a (partly) self-guided project.\nYou will work on your own laptops, bring them to class. If this poses a limitation to your participation, please me (B.S.) know.\nTo get you set up, we’ll support you with installing all the necessary software on our laptops. But please do get started with installations and setup before our first session, following this:\n\n\nPlease install essential software needed for this course and check it is running. We will offer support in class, for those that encounter problems. Essential software is (1) R and RStudio, follow this, (2) git, follow this. Note that additional software for spatial analysis (NetCDF, gdal) is not required for AGDS I, i.e. the corresponding sections can be skipped (https://geco-bern.github.io/agds_book/getting_started.html#other-libraries-and-applications).",
+    "text": "Lead: Prof. Benjamin Stocker; contributing authors and assistance: Dr. Fabian Bernhard; Geocomputation and Earth Observation, GIUB, UniBe.\nCourse language is English.\nMonday 14.15-16.00 is our presence time, use it for your communication with us.\nNo email communications.\nLecture notes are available as online book at https://geco-bern.github.io/agds_book/. It contains all contents, as reproducible code, with exercises and solutions for self-study. “Report exercises” go into Final Report (see separate document).\nNo recordings. It’s all in the book.\nAGDS 1 is required for the Proseminar in Geocomputation and Earth Observation, held in the autumn semester after AGDS 1\nHighly recommended for AGDS 2 (Master course, fall semester 2025)\nStudents work on their own laptops which they bring to class.\nThis year (spring semester 2025) there is no limit to number of students participating. In future iterations of the course, it will be offered as with a participation limit.\nThe course is not formally “creditable” (German: anrechenbar) towards the Master studies in Geography. Requests for crediting can be made and will be handled on an individual basis.\nMaster students in Climate Sciences can credit AGDS 1 as Elective Course.\nRegistrations for the exam (in the form of the Final Report, see separate document) have to be made until 14 days before the last session (26.05.2025).\nHybrid class setup: input lectures + flipped classroom + exercises\nTo get you set up, we’ll support you with installing all the necessary software on our laptops. But please do get started with installations and setup before our first session, following this:\n\n\nPlease install essential software needed for this course and check it is running. We will offer support in class, for those that encounter problems. Essential software is (1) R and RStudio, follow this, (2) git, follow this. Note that additional software for spatial analysis (NetCDF, gdal) is not required for AGDS I, i.e. the corresponding sections can be skipped (https://geco-bern.github.io/agds_book/getting_started.html#other-libraries-and-applications).",
     "crumbs": [
       "About",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Logistics</span>"
@@ -103,18 +103,7 @@
     "href": "plan.html",
     "title": "2  Course plan",
     "section": "",
-    "text": "Block 1: Introduction to Applied Geodata Science methods\nFor spring semester 2025.\nThis first block introduces tools and methods necessary for implementing a reproducible data science workflow in the R language, working through chapters 1 to 4 of the accompanying book Applied Geodata Science.\nThese chapters help get readers with a diverse background and varying data science experience up to speed with the basics for programming in R, which we rely on in later chapters.\nData wrangling introduces efficient handling and cleaning of large tabular data with the R tidyverse “programming dialect”. The focus is on non-geospatial data. Closely related to transforming data and its multiple axes of variation is data visualisation",
-    "crumbs": [
-      "About",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
-    ]
-  },
-  {
-    "objectID": "plan.html#block-1-introduction-to-applied-geodata-science-methods",
-    "href": "plan.html#block-1-introduction-to-applied-geodata-science-methods",
-    "title": "2  Course plan",
-    "section": "",
-    "text": "Session 1 - 17.02. - Getting started\n\nIntroduction to Applied Geodata Science (Chap. 1)\n\nThe data science workflow and data science basics\nThe concept of modelling\nIntroduction to R language and setup of individual laptops (Chap. 2)\n\n\n\n\nSession 2 - 24.02. - Programming primers\n\nGetting started\n\nRMarkdown\nWorkspace management and reproducible workflows\n\nIntroductory Programming Exercises: (Chap. 3)\n\n\n\nSession 3 - 03.03. - Data wrangling (Report: Tidy data)\n\nHandling tabular data in R (Chap. 4)\n[Report exercise: Tidy data]\n\n\n\nSession 4 - 10.03. - Data visualization (Report: Air quality)\n\nData visualization in R (Chap. 5)\n[Report exercise: Data visualization]",
+    "text": "Session 1 - 17.02. - Getting started\nFor spring semester 2025.\nThis first block introduces tools and methods necessary for implementing a reproducible data science workflow in the R language, working through chapters 1 to 4 of the accompanying book Applied Geodata Science.\nThese chapters help get readers with a diverse background and varying data science experience up to speed with the basics for programming in R, which we rely on in later chapters.\nData wrangling introduces efficient handling and cleaning of large tabular data with the R tidyverse “programming dialect”. The focus is on non-geospatial data. Closely related to transforming data and its multiple axes of variation is data visualisation",
     "crumbs": [
       "About",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
@@ -125,29 +114,18 @@
     "href": "plan.html#block-2-getting-and-working-with-scientific-data",
     "title": "2  Course plan",
     "section": "Block 2: Getting and working with scientific data",
-    "text": "Block 2: Getting and working with scientific data\nThis block introduces essential tools for the daily work with diverse data and for applying an Open Science practice which also includes collaborative code development or at least code sharing.\n\nSession 5 - 17.03. - Data variety\n\nData variety (Chap. 6)\n\n\n\nSession 6 - 24.03. - Open science\n\nOpen and reproducible science (Chap. 7)\n\n\n\nSession 7 - 31.03. - Code management (Report: git)\n\nCode/project management with git (Chap. 8)\n[Report exercise: git]\n\n\n\nSession 8 - 07.04. - CARE SESSION I\n\nWork on R. Ex. 7 as team exercise\nSelf-study of tutorial and exercises",
+    "text": "Block 2: Getting and working with scientific data\nThis block introduces essential tools for the daily work with diverse data and for applying an Open Science practice which also includes collaborative code development or at least code sharing.\n\nSession 5 - 17.03. - Data variety\n\nData variety (Chap. 6)\n\n\n\nSession 6 - 24.03. - Open science\n\nOpen and reproducible science (Chap. 7)\n\n\n\nSession 7 - 31.03. - Code management\n\nCode/project management with git (Chap. 8)\n[Report Exercise: Collaborating with git]\n\n\n\nSession 8 - 07.04. - CARE SESSION I\n\nWork on R. Ex. 7 as team exercise\nSelf-study of tutorial and exercises",
     "crumbs": [
       "About",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
     ]
   },
   {
-    "objectID": "plan.html#block-3-statistical-analyses-of-data",
-    "href": "plan.html#block-3-statistical-analyses-of-data",
+    "objectID": "plan.html#block-3-modelling",
+    "href": "plan.html#block-3-modelling",
     "title": "2  Course plan",
-    "section": "Block 3: Statistical analyses of data",
-    "text": "Block 3: Statistical analyses of data\nWith regression, classification, supervised machine learning I and II and Random Forests we will get into modelling and identifying patterns in the data.\n\nSession 9 - 14.04. - Regression (Report: stepwise regr.)\n\nRegression and classification\n[Report exercise: stepwise regression]\n\n\n\nSession 10 - 28.04. - Supervised ML I (Report: KNN)\n\nSupervised machine learning I\n[Report exercise: stepwise KNN]\n\n\n\nSession 11 - 05.05. - Supervised ML II (Report: flux modeling)\n\nApplications of machine learning in Geography and Earth system sciences (lecture)\nSupervised machine learning II\n[Report exercise: stepwise flux modeling]\n\n\n\nSession 12 - 12.05. - Random Forest\n\nRandom Forest",
-    "crumbs": [
-      "About",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
-    ]
-  },
-  {
-    "objectID": "plan.html#block-4-work-on-report-exercises",
-    "href": "plan.html#block-4-work-on-report-exercises",
-    "title": "2  Course plan",
-    "section": "Block 4: Work on Report Exercises",
-    "text": "Block 4: Work on Report Exercises\n\nSession 13 - 19.05. - CARE SESSION II\n\nFree work on Report Exercises\nSelf-study of literature and report exercise\n\n\n\nSession 14 - 26.05.\n\nFree work on Report Exercises\nSelf-study of literature and report exercise\nPotential Outlook: Interpretable machine learning",
+    "section": "Block 3: Modelling",
+    "text": "Block 3: Modelling\nWith regression, classification, supervised machine learning I and II and Random Forests, we will get into modelling and identifying patterns in the data.\n\nSession 9 - 14.04. - Regression (Report: stepwise regr.)\n\nRegression and classification\n[Report Exercise: Stepwise regression]\n\n\n\nSession 10 - 28.04. - Supervised ML I (Report: KNN)\n\nSupervised machine learning I\n[Report Exercise: KNN]\n\n\n\nSession 11 - 05.05. - Supervised ML II (Report: flux modeling)\n\nApplications of machine learning in Geography and Earth system sciences (lecture)\nSupervised machine learning II\n[Report Exercise: Flux modeling]\n\n\n\nSession 12 - 12.05. - Random Forest\n\nRandom Forest\n\n\n\nSession 13 - 19.05. - Interpretable machine learning\n\nInterpretable machine learning\n\n\n\nSession 14 - 26.05. - CARE SESSION II\n\nCatch-up and support on Report Exercises",
     "crumbs": [
       "About",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
