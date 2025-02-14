@@ -103,7 +103,18 @@
     "href": "plan.html",
     "title": "2  Course plan",
     "section": "",
-    "text": "Session 1 - 17.02. - Getting started\nFor spring semester 2025.\nThis first block introduces tools and methods necessary for implementing a reproducible data science workflow in the R language, working through chapters 1 to 4 of the accompanying book Applied Geodata Science.\nThese chapters help get readers with a diverse background and varying data science experience up to speed with the basics for programming in R, which we rely on in later chapters.\nData wrangling introduces efficient handling and cleaning of large tabular data with the R tidyverse “programming dialect”. The focus is on non-geospatial data. Closely related to transforming data and its multiple axes of variation is data visualisation",
+    "text": "Block 1: Introduction to working with data\nFor spring semester 2025.\nThis first block introduces tools and methods necessary for implementing a reproducible data science workflow in the R language, working through chapters 1 to 4 of the accompanying book Applied Geodata Science.\nThese chapters help get readers with a diverse background and varying data science experience up to speed with the basics for programming in R, which we rely on in later chapters.\nData wrangling introduces efficient handling and cleaning of large tabular data with the R tidyverse “programming dialect”. The focus is on non-geospatial data. Closely related to transforming data and its multiple axes of variation is data visualisation",
+    "crumbs": [
+      "About",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
+    ]
+  },
+  {
+    "objectID": "plan.html#block-1-introduction-to-working-with-data",
+    "href": "plan.html#block-1-introduction-to-working-with-data",
+    "title": "2  Course plan",
+    "section": "",
+    "text": "Session 1 - 17.02. - Getting started\n\nIntroduction to Applied Geodata Science (Chap. 1)\n\nThe data science workflow and data science basics\nThe concept of modelling\nIntroduction to R language and setup of individual laptops (Chap. 2)\n\n\n\n\nSession 2 - 24.02. - Programming primers\n\nGetting started\n\nRMarkdown\nWorkspace management and reproducible workflows\n\nIntroductory Programming Exercises: (Chap. 3)\n\n\n\nSession 3 - 03.03. - Data wrangling\n\nHandling tabular data in R (Chap. 4)\n[Report Exercise: Tidy data]\n\n\n\nSession 4 - 10.03. - Data visualization\n\nData visualization in R (Chap. 5)\n[Report Exercise: Data visualization]",
     "crumbs": [
       "About",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
