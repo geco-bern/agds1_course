@@ -27,9 +27,13 @@ book:
     background: "#3A3A3A"
     search: true
     right:
-      - text: "Home"
+      - text: "About"
         file: index.qmd
-
+      - text: "Logistics"
+        file: logistics.qmd
+      - text: "Course Plan"
+        file: plan.qmd
+        
 bibliography: references.bib
 
 format:
