@@ -9,8 +9,6 @@ These chapters help get readers with a diverse background and varying data scien
 Data wrangling introduces efficient handling and cleaning of large tabular data with the R tidyverse “programming dialect”. The focus is on non-geospatial data.
 Closely related to transforming data and its multiple axes of variation is data visualisation
 
-## Block 1: Introduction to working with data {.unnumbered}
-
 ### Session 1 - 17.02. - Getting started {.unnumbered}
 
 - [Introduction to Applied Geodata Science (Chap. 1)](https://geco-bern.github.io/agds_book/intro.html#what-is-applied-geodata-science)
@@ -35,10 +33,6 @@ Closely related to transforming data and its multiple axes of variation is data 
 - [Data visualization in R (Chap. 5)](https://geco-bern.github.io/agds_book/data_vis.html)
 - [**Report Exercise**: Data visualization]
 
-## Block 2: Getting and working with scientific data {.unnumbered}
-
-This block introduces essential tools for the daily work with diverse data and for applying an Open Science practice which also includes collaborative code development or at least code sharing.
-
 ### Session 5 - 17.03. - Data variety {.unnumbered}
 
 - [Data variety (Chap. 6)](https://geco-bern.github.io/agds_book/data_variety.html)
@@ -56,10 +50,6 @@ This block introduces essential tools for the daily work with diverse data and f
 
 - Work on R. Ex. 7 **as team exercise**
 - Self-study of tutorial and exercises
-
-## Block 3: Modelling {.unnumbered}
-
-With regression, classification, supervised machine learning I and II and Random Forests, we will get into modelling and identifying patterns in the data.
 
 ### Session 9 - 14.04. - Regression (Report: stepwise regr.) {.unnumbered}
 
