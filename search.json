@@ -6,7 +6,7 @@
     "section": "",
     "text": "About this course",
     "crumbs": [
-      "Home",
+      "About",
       "About this course"
     ]
   },
@@ -17,7 +17,7 @@
     "section": "Course description",
     "text": "Course description\nThis course introduces essential methods of the data science workflow, supported by the book Applied Geodata Science and demonstrates common applications of machine learning methods in Geography and Environmental Sciences by worked examples.",
     "crumbs": [
-      "Home",
+      "About",
       "About this course"
     ]
   },
@@ -28,7 +28,7 @@
     "section": "Learning objectives",
     "text": "Learning objectives\n\nImplement a data science workflow for common domain-specific machine learning-based modelling tasks.\nAnalyse and visualise models and their predictions and communicate insights.\nDescribe the challenges of model fitting and evaluate model generalisability.\nAdopt and benefit from Open Science practices and resources for data-intensive research projects.",
     "crumbs": [
-      "Home",
+      "About",
       "About this course"
     ]
   },
@@ -39,7 +39,7 @@
     "section": "Course contents",
     "text": "Course contents\nThis course covers all steps along the data science workflow (Figure 1) and introduces methods and tools to learn the most from data, to effectively communicate insights, and to make your workflow reproducible. By following this course, you will be well equipped for joining the Open Science movement.\n\n\n\n\n\n\n\n\nFigure 1: The data science workflow and keywords of contents covered in Applied Geodata Science I. Figure adapted from: Wickham and Grolemund R for Data Science",
     "crumbs": [
-      "Home",
+      "About",
       "About this course"
     ]
   },
@@ -50,7 +50,7 @@
     "section": "Target audience and prerequisites",
     "text": "Target audience and prerequisites\nBachelor students in Geography and in Climate Sciences at the University of Bern. This course is a product of the group for Geocomputation and Earth Observation, Institute of Geography, taught by Benjamin Stocker and Fabian Bernhard. The course content was established with contributions by Koen Hufkens, Pascal Schneider and Pepa Aran.",
     "crumbs": [
-      "Home",
+      "About",
       "About this course"
     ]
   },
@@ -61,7 +61,7 @@
     "section": "",
     "text": "1.1 General information",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Logistics</span>"
     ]
   },
@@ -72,7 +72,7 @@
     "section": "",
     "text": "Lead: Prof. Benjamin Stocker; assistance: Dr. Fabian Bernhard\nCourse language is English.\nMonday 14.15-16.00 is our presence time, use it for your communication with us.\nNo email communications.\nLecture notes are available as online tutorials (see Chapter 2). They contain all contents as reproducible code.\nNo recordings are made available. It’s all in the tutorials.\nThe number of students is limited to 25.\nThis course follows a hybrid class setup: input lectures, flipped classroom, and individual work on a (partly) self-guided project.\nYou will work on your own laptops, bring them to class. If this poses a limitation to your participation, please me (B.S.) know.\nTo get you set up, we’ll support you with installing all the necessary software on our laptops. But please do get started with installations and setup before our first session, following this:\n\n\nPlease install essential software needed for this course and check it is running. We will offer support in class, for those that encounter problems. Essential software is (1) R and RStudio, follow this, (2) git, follow this. Note that additional software for spatial analysis (NetCDF, gdal) is not required for AGDS I, i.e. the corresponding sections can be skipped (https://geco-bern.github.io/agds_book/getting_started.html#other-libraries-and-applications).",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Logistics</span>"
     ]
   },
@@ -83,7 +83,7 @@
     "section": "1.2 Course contents and design",
     "text": "1.2 Course contents and design\nThis course introduces the typical data science workflow using various examples of geographical and environmental data. With a strong hands-on component and a series of input lectures, this course introduces the basic concepts of data science and teaches how to conduct each step of the data science workflow. This includes the handling of various data formats, the formulation and fitting of robust statistical models, including basic machine learning algorithms, the effective visualisation and communication of results, and the implementation of reproducible workflows, founded in Open Science principles.\nThe overall course goal is to teach students to tell a story with data. All tutorials use the R programming language. Students will work on their own laptops.\nSee Course Plan for a detailed overview the content.",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Logistics</span>"
     ]
   },
@@ -94,7 +94,7 @@
     "section": "1.3 Evaluation",
     "text": "1.3 Evaluation\n\nStudents hand in reports of 7 Report Exercises in the form of a link, sent to Prof. B. Stocker, to three git repositories that contains:\n\nRepositories 1: code for 7 separate, reproducible workflows (RMarkdown, see here) for 7 Report Exercises (vignettes/re1.Rmd to vignettes/re7.Rmd).\nRepositories 2 and 3: the result of the paired exercise\n\nAll 7 RMarkdown files and the paired exercise will be equally weighted for the final grade.\nFor grading, we consider the following criteria:\n\nReproducibility (20%). Make sure your RMarkdown code is reproducible and generates a html document as intended. You can check this by letting a colleague clone your git repository and run your code on their machine. If it fails, it’s not reproducible, and you won’t get points for this aspect.\nCoding practice (20%). This considers the quality of the code you have written (clean, readable, consistent, extensible, see here) [and the quality of the commit messages].\nQuality of visualization (20%). This considers the appearance of the generated html document, its text and figures. Provide context, create good data visualisations, and discuss your findings.\nWorkspace organisation and code (20%). Follow the principles for workspace organisation and coding as described in the AGDS book (here and here).\nInterpretation (20%). This considers the the scientific interpretation of your results.\n\nEach student will hand in their own Report Exercises. Except for the paired exercise this is not a group work.\nCopying of entire code snippets between students is not permitted and duplicated code will be graded with zero points for the respective Report Exercise.\nReports cannot be re-submitted after having received the grades. Make sure all is reproducible before you submit.\nDeadline for sending us the link by email: 08.01.2024 (course in fall semester 2023).",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Logistics</span>"
     ]
   },
@@ -105,7 +105,7 @@
     "section": "1.4 Note of caution",
     "text": "1.4 Note of caution\nThe use of large language models (LLMs), such as ChatGPT, is not permitted for writing report text. For supporting code development, it is permitted but should be considered with great caution: We are aware that LLMs can help solving technical tasks and the right use of LLMs for solving your problem is not discouraged. However, be aware that code produced by LLMs is not tested to be functional and error-free. Therefore, you have to understand what you get and verify and correct code with a view to your problem. Note that LLMs use text from various sources on the internet. Your report text must not contain verbatim copied text from unidentified sources. This would be considered plagiarism.",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Logistics</span>"
     ]
   },
@@ -116,7 +116,7 @@
     "section": "",
     "text": "Block 1: Introduction to Applied Geodata Science methods\nFor spring semester 2025.\nThis first block introduces tools and methods necessary for implementing a reproducible data science workflow in the R language, working through chapters 1 to 4 of the accompanying book Applied Geodata Science.\nThese chapters help get readers with a diverse background and varying data science experience up to speed with the basics for programming in R, which we rely on in later chapters.\nData wrangling introduces efficient handling and cleaning of large tabular data with the R tidyverse “programming dialect”. The focus is on non-geospatial data. Closely related to transforming data and its multiple axes of variation is data visualisation",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
     ]
   },
@@ -127,7 +127,7 @@
     "section": "",
     "text": "Session 1 - 17.02. - Getting started\n\nIntroduction to Applied Geodata Science (Chap. 1)\n\nThe data science workflow and data science basics\nThe concept of modelling\nIntroduction to R language and setup of individual laptops (Chap. 2)\n\n\n\n\nSession 2 - 24.02. - Programming primers\n\nGetting started\n\nRMarkdown\nWorkspace management and reproducible workflows\n\nIntroductory Programming Exercises: (Chap. 3)\n\n\n\nSession 3 - 03.03. - Data wrangling (Report: Tidy data)\n\nHandling tabular data in R (Chap. 4)\n[Report exercise: Tidy data]\n\n\n\nSession 4 - 10.03. - Data visualization (Report: Air quality)\n\nData visualization in R (Chap. 5)\n[Report exercise: Data visualization]",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
     ]
   },
@@ -138,7 +138,7 @@
     "section": "Block 2: Getting and working with scientific data",
     "text": "Block 2: Getting and working with scientific data\nThis block introduces essential tools for the daily work with diverse data and for applying an Open Science practice which also includes collaborative code development or at least code sharing.\n\nSession 5 - 17.03. - Data variety\n\nData variety (Chap. 6)\n\n\n\nSession 6 - 24.03. - Open science\n\nOpen and reproducible science (Chap. 7)\n\n\n\nSession 7 - 31.03. - Code management (Report: git)\n\nCode/project management with git (Chap. 8)\n[Report exercise: git]\n\n\n\nSession 8 - 07.04. - CARE SESSION I\n\nWork on R. Ex. 7 as team exercise\nSelf-study of tutorial and exercises",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
     ]
   },
@@ -149,7 +149,7 @@
     "section": "Block 3: Statistical analyses of data",
     "text": "Block 3: Statistical analyses of data\nWith regression, classification, supervised machine learning I and II and Random Forests we will get into modelling and identifying patterns in the data.\n\nSession 9 - 14.04. - Regression (Report: stepwise regr.)\n\nRegression and classification\n[Report exercise: stepwise regression]\n\n\n\nSession 10 - 28.04. - Supervised ML I (Report: KNN)\n\nSupervised machine learning I\n[Report exercise: stepwise KNN]\n\n\n\nSession 11 - 05.05. - Supervised ML II (Report: flux modeling)\n\nApplications of machine learning in Geography and Earth system sciences (lecture)\nSupervised machine learning II\n[Report exercise: stepwise flux modeling]\n\n\n\nSession 12 - 12.05. - Random Forest\n\nRandom Forest",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
     ]
   },
@@ -160,7 +160,7 @@
     "section": "Block 4: Work on Report Exercises",
     "text": "Block 4: Work on Report Exercises\n\nSession 13 - 19.05. - CARE SESSION II\n\nFree work on Report Exercises\nSelf-study of literature and report exercise\n\n\n\nSession 14 - 26.05.\n\nFree work on Report Exercises\nSelf-study of literature and report exercise\nPotential Outlook: Interpretable machine learning",
     "crumbs": [
-      "Home",
+      "About",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course plan</span>"
     ]
   }
