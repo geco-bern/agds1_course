@@ -9,6 +9,7 @@ These chapters help get readers with a diverse background and varying data scien
 Data wrangling introduces efficient handling and cleaning of large tabular data with the R tidyverse “programming dialect”. The focus is on non-geospatial data.
 Closely related to transforming data and its multiple axes of variation is data visualisation
 
+## Block 1: Introduction to working with data {.unnumbered}
 
 ### Session 1 - 17.02. - Getting started {.unnumbered}
 
