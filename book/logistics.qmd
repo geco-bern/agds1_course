@@ -2,15 +2,20 @@
 
 ## General information
 
-- Lead: [Prof. Benjamin Stocker](https://geco-group.org/author/benjamin-stocker/); assistance: [Dr. Fabian Bernhard](https://geco-group.org/author/fabian-bernhard/)
+- Lead: Prof. Benjamin Stocker; contributing authors and assistance: Dr. Fabian Bernhard; Geocomputation and Earth Observation, GIUB, UniBe. 
 - Course language is English.
 - Monday 14.15-16.00 is our presence time, use it for your communication with us.
 - No email communications.
-- Lecture notes are available as online tutorials (see @sec-plan). They contain all contents as reproducible code.
-- No recordings are made available. It’s all in the tutorials.
-- The number of students is limited to 25.
-- This course follows a hybrid class setup: input lectures, flipped classroom, and individual work on a (partly) self-guided project.
-- You will work on your own laptops, bring them to class. If this poses a limitation to your participation, please me (B.S.) know. 
+- Lecture notes are available as online book at https://geco-bern.github.io/agds_book/. It contains all contents, as reproducible code, with exercises and solutions for self-study. “Report exercises” go into Final Report (see separate document).
+- No recordings. It’s all in the book.
+- AGDS 1 is required for the Proseminar in Geocomputation and Earth Observation, held in the autumn semester after AGDS 1
+- Highly recommended for AGDS 2 (Master course, fall semester 2025)
+- Students work on their own laptops which they bring to class.
+- This year (spring semester 2025) there is no limit to number of students participating. In future iterations of the course, it will be offered as with a participation limit.
+- The course is not formally “creditable” (German: anrechenbar) towards the Master studies in Geography. Requests for crediting can be made and will be handled on an individual basis.
+- Master students in Climate Sciences can credit AGDS 1 as Elective Course.
+- Registrations for the exam (in the form of the Final Report, see separate document) have to be made until 14 days before the last session (26.05.2025).
+- Hybrid class setup: input lectures + flipped classroom + exercises
 - To get you set up, we’ll support you with installing all the necessary software on our laptops. But please do get started with installations and setup before our first session, following this:
 
 > Please install essential software needed for this course and check it is running. We will offer support in class, for those that encounter problems. Essential software is (1) **R and RStudio**, follow [this](https://geco-bern.github.io/agds_book/getting_started.html#installing-r-and-rstudio), (2) **git**, follow [this](https://geco-bern.github.io/agds_book/getting_started.html#git-1). Note that additional software for spatial analysis (NetCDF, gdal) is *not* required for AGDS I, i.e. the corresponding sections can be skipped (https://geco-bern.github.io/agds_book/getting_started.html#other-libraries-and-applications).

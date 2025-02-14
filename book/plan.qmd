@@ -2,8 +2,6 @@
 
 For spring semester 2025.
 
-## Block 1: Introduction to Applied Geodata Science methods {.unnumbered}
-
 This first block introduces tools and methods necessary for implementing a reproducible data science workflow in the R language, working through chapters 1 to 4 of the accompanying book [Applied Geodata Science](https://geco-bern.github.io/agds_book/).
 
 These chapters help get readers with a diverse background and varying data science experience up to speed with the basics for programming in R, which we rely on in later chapters.
@@ -26,15 +24,15 @@ Closely related to transforming data and its multiple axes of variation is data 
   - Workspace management and reproducible workflows
 - [Introductory Programming Exercises:  (Chap. 3)](https://geco-bern.github.io/agds_book/programming_primers.html)
 
-### Session 3 - 03.03. - Data wrangling (Report: Tidy data) {.unnumbered}
+### Session 3 - 03.03. - Data wrangling {.unnumbered}
 
 - [Handling tabular data in R (Chap. 4)](https://geco-bern.github.io/agds_book/data_wrangling.html)
-- [Report exercise: Tidy data]
+- [**Report Exercise**: Tidy data]
 
-### Session 4 - 10.03. - Data visualization (Report: Air quality) {.unnumbered}
+### Session 4 - 10.03. - Data visualization {.unnumbered}
 
 - [Data visualization in R (Chap. 5)](https://geco-bern.github.io/agds_book/data_vis.html)
-- [Report exercise: Data visualization]
+- [**Report Exercise**: Data visualization]
 
 ## Block 2: Getting and working with scientific data {.unnumbered}
 
@@ -48,52 +46,45 @@ This block introduces essential tools for the daily work with diverse data and f
 
 - [Open and reproducible science (Chap. 7)](https://geco-bern.github.io/agds_book/open_science.html#openscience)
 
-### Session 7 - 31.03. - Code management (Report: git) {.unnumbered}
+### Session 7 - 31.03. - Code management {.unnumbered}
 
 - [Code/project management with git (Chap. 8)](https://geco-bern.github.io/agds_book/code_management.html)
-- [Report exercise: git]
+- [**Report Exercise**: Collaborating with git]
 
 ### Session 8 - 07.04. - CARE SESSION I {.unnumbered}
 
 - Work on R. Ex. 7 **as team exercise**
 - Self-study of tutorial and exercises
 
+## Block 3: Modelling {.unnumbered}
 
-## Block 3: Statistical analyses of data {.unnumbered}
-
-With regression, classification, supervised machine learning I and II and Random Forests we will get into modelling and identifying patterns in the data.
+With regression, classification, supervised machine learning I and II and Random Forests, we will get into modelling and identifying patterns in the data.
 
 ### Session 9 - 14.04. - Regression (Report: stepwise regr.) {.unnumbered}
 
 - [Regression and classification](https://geco-bern.github.io/agds_book/regression_classification.html)
-- [Report exercise: stepwise regression]
+- [**Report Exercise**: Stepwise regression]
 
 ### Session 10 - 28.04. - Supervised ML I (Report: KNN){.unnumbered}
 
 - [Supervised machine learning I](https://geco-bern.github.io/agds_book/supervised_ml_I.html)
-- [Report exercise: stepwise KNN]
+- [**Report Exercise**: KNN]
 
 ### Session 11 - 05.05. - Supervised ML II (Report: flux modeling) {.unnumbered}
 
 - Applications of machine learning in Geography and Earth system sciences (lecture)
 - [Supervised machine learning II](https://geco-bern.github.io/agds_book/supervised_ml_II.html)
-- [Report exercise: stepwise flux modeling]
+- [**Report Exercise**: Flux modeling]
 
 ### Session 12 - 12.05. - Random Forest {.unnumbered}
 
 - [Random Forest](https://geco-bern.github.io/agds_book/randomforest.html)
 
+### Session 13 - 19.05. - Interpretable machine learning {.unnumbered}
 
-## Block 4: Work on Report Exercises {.unnumbered}
+- [Interpretable machine learning](https://geco-bern.github.io/agds_book/interpretableml.html)
 
-### Session 13 - 19.05.  - CARE SESSION II {.unnumbered}
+### Session 14 - 26.05.  - CARE SESSION II {.unnumbered}
 
-- Free work on Report Exercises
-- Self-study of literature and report exercise
-
-### Session 14 - 26.05. {.unnumbered}
-
-- Free work on Report Exercises
-- Self-study of literature and report exercise
-- [Potential Outlook: Interpretable machine learning](https://geco-bern.github.io/agds_book/interpretableml.html)
+- Catch-up and support on Report Exercises
 
