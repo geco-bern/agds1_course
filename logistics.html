@@ -181,9 +181,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#general-information" id="toc-general-information" class="nav-link active" data-scroll-target="#general-information"><span class="header-section-number">1.1</span> General information</a></li>
-  <li><a href="#course-contents-and-design" id="toc-course-contents-and-design" class="nav-link" data-scroll-target="#course-contents-and-design"><span class="header-section-number">1.2</span> Course contents and design</a></li>
-  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation"><span class="header-section-number">1.3</span> Evaluation</a></li>
-  <li><a href="#note-of-caution" id="toc-note-of-caution" class="nav-link" data-scroll-target="#note-of-caution"><span class="header-section-number">1.4</span> Note of caution</a></li>
+  <li><a href="#report-requirements" id="toc-report-requirements" class="nav-link" data-scroll-target="#report-requirements"><span class="header-section-number">1.2</span> Report requirements</a>
+  <ul class="collapse">
+  <li><a href="#what-is-part-of-the-report" id="toc-what-is-part-of-the-report" class="nav-link" data-scroll-target="#what-is-part-of-the-report"><span class="header-section-number">1.2.1</span> What is part of the report?</a></li>
+  <li><a href="#how-do-i-hand-in-the-report" id="toc-how-do-i-hand-in-the-report" class="nav-link" data-scroll-target="#how-do-i-hand-in-the-report"><span class="header-section-number">1.2.2</span> How do I hand in the report?</a></li>
+  <li><a href="#how-do-we-grade-the-report" id="toc-how-do-we-grade-the-report" class="nav-link" data-scroll-target="#how-do-we-grade-the-report"><span class="header-section-number">1.2.3</span> How do we grade the report?</a></li>
+  </ul></li>
+  <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq"><span class="header-section-number">1.3</span> FAQ</a></li>
   </ul>
 </nav>
     </div>
@@ -227,38 +231,59 @@ ul.task-list li input[type="checkbox"] {
 <p>Please install essential software needed for this course and check it is running. We will offer support in class, for those that encounter problems. Essential software is (1) <strong>R and RStudio</strong>, follow <a href="https://geco-bern.github.io/agds_book/getting_started.html#installing-r-and-rstudio">this</a>, (2) <strong>git</strong>, follow <a href="https://geco-bern.github.io/agds_book/getting_started.html#git-1">this</a>. Note that additional software for spatial analysis (NetCDF, gdal) is <em>not</em> required for AGDS I, i.e.&nbsp;the corresponding sections can be skipped (https://geco-bern.github.io/agds_book/getting_started.html#other-libraries-and-applications).</p>
 </blockquote>
 </section>
-<section id="course-contents-and-design" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="course-contents-and-design"><span class="header-section-number">1.2</span> Course contents and design</h2>
-<p>This course introduces the typical data science workflow using various examples of geographical and environmental data. With a strong hands-on component and a series of input lectures, this course introduces the basic concepts of data science and teaches how to conduct each step of the data science workflow. This includes the handling of various data formats, the formulation and fitting of robust statistical models, including basic machine learning algorithms, the effective visualisation and communication of results, and the implementation of reproducible workflows, founded in Open Science principles.</p>
-<p>The overall course goal is to teach students to tell a story with data. All tutorials use the R programming language. Students will work on their own laptops.</p>
-<p>See <a href="@sec-plan">Course Plan</a> for a detailed overview the content.</p>
+<section id="report-requirements" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="report-requirements"><span class="header-section-number">1.2</span> Report requirements</h2>
+<section id="what-is-part-of-the-report" class="level3" data-number="1.2.1">
+<h3 data-number="1.2.1" class="anchored" data-anchor-id="what-is-part-of-the-report"><span class="header-section-number">1.2.1</span> What is part of the report?</h3>
+<p>Throughout this book, you will find two kinds of exercises:</p>
+<ul>
+<li><p>Exercises for which we provide solutions. These are NOT part of the final report and solutions are provided for self-study.</p></li>
+<li><p>Exercises in sections called “Report Exercise”, which are part of your Final Report. Report Exercises in the form of executable code, generating documents with text and visualisations, will be graded. Report Exercises are:</p>
+<ol type="1">
+<li>Chapter 4 (Tidy data)</li>
+<li>Chapter 5 (Air quality data visualisation)</li>
+<li>Chapter 8 (Collaborating with git)</li>
+<li>Chapter 9 (Stepwise regression)</li>
+<li>Chapter 10 (KNN)</li>
+<li>Chapter 11 (Flux modelling)</li>
+</ol></li>
+</ul>
+<p>The data to solve all these exercises is accessible <a href="https://github.com/geco-bern/agds_book/tree/main/book/data">here</a>.</p>
 </section>
-<section id="evaluation" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="evaluation"><span class="header-section-number">1.3</span> Evaluation</h2>
+<section id="how-do-i-hand-in-the-report" class="level3" data-number="1.2.2">
+<h3 data-number="1.2.2" class="anchored" data-anchor-id="how-do-i-hand-in-the-report"><span class="header-section-number">1.2.2</span> How do I hand in the report?</h3>
+<p>You will send us a link to your GitHub account by email (benjamin.stocker <em>an der</em> unibe.ch) that holds the three repositories (directories) containing your code:</p>
 <ul>
-<li>Students hand in reports of 7 Report Exercises in the form of a link, sent to Prof.&nbsp;B. Stocker, to three <em>git</em> repositories that contains:
+<li>Out of the six report exercises, solve five to.</li>
+<li>Your report repository that holds your report as five .html files that is created from the respective five .Rmd files (one for each Report Exercise, see above).</li>
+<li>Two repositories from the exercise in Chapter 8 (Collaborating with git):
 <ul>
-<li>Repositories 1: code for 7 separate, reproducible workflows (RMarkdown, see <a href="https://geco-bern.github.io/agds_book/getting_started.html#sec-rmarkdown">here</a>) for 7 Report Exercises (<code>vignettes/re1.Rmd</code> to <code>vignettes/re7.Rmd</code>).</li>
-<li>Repositories 2 and 3: the result of the paired exercise</li>
+<li>Your original repository that your partner’s cloned repository where you accepted a pull request.</li>
+<li>Your forked repository from your partner on which you opened a pull request.</li>
+<li>“Hand in” the “report” by pointing us to the URL of your repositories by 09.06.2024 at 8.00 CET.</li>
 </ul></li>
-<li>All 7 RMarkdown files and the paired exercise will be equally weighted for the final grade.</li>
-<li>For grading, we consider the following criteria:
-<ul>
-<li><strong>Reproducibility</strong> (20%). Make sure your RMarkdown code is reproducible and generates a html document as intended. You can check this by letting a colleague clone your git repository and run your code on their machine. If it fails, it’s not reproducible, and you won’t get points for this aspect.</li>
-<li><strong>Coding practice</strong> (20%). This considers the quality of the code you have written (clean, readable, consistent, extensible, see <a href="https://geco-bern.github.io/agds_book/programming_primers.html#style-your-code">here</a>) [and the quality of the commit messages].</li>
-<li><strong>Quality of visualization</strong> (20%). This considers the appearance of the generated html document, its text and figures. Provide context, create good data visualisations, and discuss your findings.</li>
-<li><strong>Workspace organisation and code</strong> (20%). Follow the principles for workspace organisation and coding as described in the AGDS book (<a href="https://geco-bern.github.io/agds_book/getting_started.html#sec-wspmgmt">here</a> and <a href="https://geco-bern.github.io/agds_book/programming_primers.html#programming-basics">here</a>).</li>
-<li><strong>Interpretation</strong> (20%). This considers the the scientific interpretation of your results.</li>
-</ul></li>
-<li>Each student will hand in their own Report Exercises. Except for the paired exercise this is not a group work.</li>
-<li>Copying of entire code snippets between students is not permitted and duplicated code will be graded with zero points for the respective Report Exercise.</li>
-<li>Reports cannot be re-submitted after having received the grades. Make sure all is reproducible before you submit.</li>
-<li><strong>Deadline for sending us the link by email: 08.01.2024 (course in fall semester 2023).</strong></li>
 </ul>
 </section>
-<section id="note-of-caution" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="note-of-caution"><span class="header-section-number">1.4</span> Note of caution</h2>
-<p>The use of large language models (LLMs), such as ChatGPT, is not permitted for writing report text. For supporting code development, it is permitted but should be considered with great caution: We are aware that LLMs can help solving technical tasks and the right use of LLMs for solving your problem is not discouraged. However, be aware that code produced by LLMs is not tested to be functional and error-free. Therefore, you have to understand what you get and verify and correct code with a view to your problem. Note that LLMs use text from various sources on the internet. Your report text must not contain verbatim copied text from unidentified sources. This would be considered plagiarism.</p>
+<section id="how-do-we-grade-the-report" class="level3" data-number="1.2.3">
+<h3 data-number="1.2.3" class="anchored" data-anchor-id="how-do-we-grade-the-report"><span class="header-section-number">1.2.3</span> How do we grade the report?</h3>
+<p>For each Report Exercise you can obtain a maximum of 12 points. The final grade is the average across the number of points across Report Exercises (capped at 6, of course).</p>
+<p>The grading will consider:</p>
+<ul>
+<li>The code for each Report Exercise needs to be reproducible (3 P).</li>
+<li>Good coding practice (legibility of code, workspace organisation, proper code management) (3 P).</li>
+<li>Quality of visualisations (3 P).</li>
+<li>Interpretations (3 P).</li>
+</ul>
+<p>Note that we consider the commit history of your repository to ensure ownership and plausibility of your code contributions. This is to make sure that you cannot copy a repository from someone else and submit it under your name.</p>
+<p><strong>Important</strong>: Reproducibility is key and and we expect that after completing this course, you are able to conduct reproducible workflows! You can ensure that your report is reproducible by letting a colleague or yourself from re-cloning code from GitHub and run your code. This gets you the first 3 P per Report Exercise.</p>
+</section>
+</section>
+<section id="faq" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="faq"><span class="header-section-number">1.3</span> FAQ</h2>
+<p><em>Can Report Exercises be done as partner or group work?</em></p>
+<p>No.&nbsp;Each (registered) student hands in their Report Exercise individually. We will check whether submitted Report Exercises have exact duplicates. Note that there is usually no right or wrong way to solve the Report Exercises. The process is important and for our assessment, we will consider the complete implementation of the workflow, the code, the visualisation, and interpretation rather than the exact solution. Do it yourself - it’s your opportunity to practice and gain confidence in mastering the data science workflow.</p>
+<p><em>Can I use AI for creating the Report Exercises?</em></p>
+<p>The use of AI is permitted as a aid. However, you are responsible for all contents. AI often fails with details that could make your work unreproducible or generate wrong or unintended results. AI generally generates generic statements. In assessing your Report Exercises, we put a strong focus on these points, your interpretation of the results, and the written and visual communication. Reliance on outputs generated by an AI implies a high risk of failing on these grounds, resulting in poor grades and failure of the course. If we see that your Report Exercises look like a copy of an output of an AI, we apply a very strict grading. This course (and studying at a University in genreal) is your opportunity to learn. Make the best of it and prove us that you’re not replaceable by an AI. It would be sad and a waste of your and our time.</p>
 
 
 </section>
